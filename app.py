@@ -20,7 +20,7 @@ def success():
 
 
 @app.route("/fail", methods=["GET"])
-def success():
+def fail():
     return "✅ Платёж не прошел..."
 
 
